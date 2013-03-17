@@ -1,17 +1,17 @@
 ---
 layout: page
-title: Hello World!
+title: 数据水墨
 tagline: Supporting tagline
 ---
 {% include JB/setup %}
 
-Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
+参阅 [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
 
-Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
+或完整的使用说明及文档: [Jekyll Bootstrap](http://jekyllbootstrap.com)
 
-## Update Author Attributes
+## 更新作者信息
 
-In `_config.yml` remember to specify your own data:
+记得在 `_config.yml` 文件中给出你自己的信息:
     
     title : My Blog =)
     
