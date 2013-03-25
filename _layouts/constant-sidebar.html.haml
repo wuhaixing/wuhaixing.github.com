@@ -1,0 +1,24 @@
+---
+layout: base
+---
+.row
+  .span8
+    .main-text
+      ~ content
+
+  .offset1.span3
+    .hidden-phone
+      %img#logo{:src=>"/images/wuhaixing-conf.jpg"}
+    #flattr_button
+      = page.flattr_large_counter(:url=>"http://wuhaixing.com", 
+        :title=>"数据水墨", 
+        :tags=>"wuhaixing,chinese,oss,java,scala,量化")
+    
+    #microbio
+      :markdown
+        __姓名:__ 吴 海兴  
+        __标签:__ 程序员, 译者    
+        __简历__: [LinkedIn](http://www.linkedin.com/in/wuhaixing)   
+        __博客:__ [编程改变数据](/blog/)  
+        __微博:__ [Weibo](http://weibo.com/u/1668197191)  
+        __驻地:__ Beijing, China

@@ -1,0 +1,15 @@
+---
+layout: blog-sidebar
+tab: blog
+---
+.page-header
+  %h1
+    编程改变数据
+    %br
+    %small.feed
+      %a{:href=>'/blog/feed.atom'}
+        %img{:src=>'/images/services/rss_32.png'}
+      %a{:href=>'/blog/feed.atom'}
+        订阅数据水墨的个人博客
+~ content
+= page.disqus_comments_count
