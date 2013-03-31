@@ -1,6 +1,6 @@
 ---
-title: 编程改变数据
-author: 吴海兴
+title: Program&Date
+author: wuhaixing
 layout: blog
 tab: blog
 ---
@@ -10,10 +10,6 @@ tab: blog
       %a{:href=>post.url}= post.title
     .blogtagbar
       #{post.date.strftime( '%Y-%m-%d' )}
-      &nbsp;|&nbsp;
-      = page.flattr_compact_counter(:url=>"http://cocasts.com" + post.url, 
-                                    :title=>post.title, 
-                                    :tags=>post.tags.join(',')) 
       &nbsp;|&nbsp;
       - post.tags.each do |tag|
         %a.label{:href=>tag.primary_page.url}
